@@ -1,2 +1,27 @@
-# 构建
+# 构建和历史记录 {#构建和历史记录}
+
+在你[使用**git**或**editor**推送完内容](http://caibaojian.com/gitbook/build/push.html)后，GitBook.com就会开始不同的构建：
+
+* **网站**
+  ：它会生成网站
+* **json**
+  ：它会提取书本的元数据（概要，介绍，等等）
+* **epub**
+  ：它会生成epub格式的下载文件
+* **pdf**
+  ：它会生成pdf格式的下载文件
+
+这些构建的记录和详情可以在你书本的**History**选项卡中可以看到。
+
+## 触发构建失败 {#触发构建失败}
+
+如果你的书本链接到了GitHub，但GitHub并没有通知GitBook内容改变了（例如：授权被重置了）。关于如何修复这个问题的内容在[集成GitHub章节](http://caibaojian.com/gitbook/github/)。
+
+## 修复构建错误 {#修复构建错误}
+
+如果你构建失败，你可以使用日志来调试问题并发布修复后的内容。
+
+[阅读更多关于常见的构建错误的内容](http://caibaojian.com/gitbook/build/errors.html)
+
+
 
