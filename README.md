@@ -1,3 +1,3 @@
-# My Awesome Book
+# GitBook-Doc
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这是一个GitBook的中文使用文档
